@@ -1,3 +1,6 @@
+body{
+    font-family: sans-serif!important;
+}
 .text-head{
     font-size: 14px!important;
     font-family: 'Marcellus', serif;
@@ -21,3 +24,175 @@
     color: black;
     border: 1px solid #eeeeee ;
   }
+body{
+    background-color: #F6F6F9;
+}
+.cell-border{
+    border: 1px solid #E9E9EF;
+}
+.cell-border tbody tr td{
+    border: 1px solid #E9E9EF!important;
+    padding: 0.75rem 0.75rem;
+    font-size: 13px;
+    color: rgb(59, 59, 59);
+}
+.cell-border tbody tr{
+    border: 1px solid #E9E9EF!important;
+}
+ .cell-border thead tr{
+    border-top: 1px solid #E9E9EF!important;
+    border-bottom: 1px solid #E9E9EF!important;
+    border-right: 1px solid #E9E9EF!important;
+}
+
+.cell-border thead th{
+    border-top: 2px solid #E9E9EF!important;
+    border-bottom: 2px solid #E9E9EF!important;
+    border-right: 1px solid #E9E9EF!important;
+    color: #495057;
+    font-size: 14px;
+}
+   
+th:first-child {
+    border-left: 1px solid #E9E9EF!important;
+  } 
+table.dataTable.no-footer {
+    border-bottom: 0 !important;
+}
+
+/* when closed */
+table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>th:first-child:before{
+    background-color: purple;
+    color:blue;
+}
+/* .dt-control:before{
+    background-color: #5156BE!important;
+} */
+.table.dataTable tr.dt-hasChild td.dt-control:before {
+    background-color: #D33333!important;
+    margin-left: 3px!important;
+ 
+}
+/* when open */
+.table.dataTable td.dt-control:before{
+    background-color: #5156BE!important;
+    margin-left: 3px!important;
+    
+}
+
+.form-check-input{
+    margin-top: 4px!important;
+    /* padding-left: 30px!important; */
+    margin-left: 3px!important;
+}
+.form-select{
+    font-size: 13px!important;
+    width: 70px!important;
+    padding: 10px!important;
+    margin: 0px!important;
+    margin-left: 10px!important;
+    margin-right: 20px!important;
+    border-top-left-radius: 5px!important;
+    border-bottom-left-radius: 5px!important;
+    display: inline;
+
+}
+.child ul li{
+    margin-top: 7px!important;
+}
+.child ul li .dtr-title{
+    font-weight: bold!important;
+    font-size: 14px!important;
+   
+}
+
+.child ul{
+    list-style-type: none!important;
+}
+
+/* .table.dataTable > thead .sorting::before{
+    font-size: 20px;
+    right: 1em;
+    left: auto;
+    content: "↑";
+    position: absolute;
+    display: inline;
+    top: 0.9em;
+
+    opacity: .3;
+}
+.table.dataTable > thead .sorting::after{
+    font-size: 20px;
+    content: "↓";
+    left: auto;
+    position: absolute;
+    top: 0.9em;
+    display: inline;
+    opacity: .3; 
+} */
+/* .dataTable > thead > tr > th[class="sort"]:before,
+.dataTable > thead > tr > th[class="sort"]:after {
+    content: "" !important;
+} */
+
+/* table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc_disabled:before {
+
+  font-size: 20px;
+    right: 1em;
+    left: auto;
+    content: "↑";
+    position: absolute;
+    display: inline;
+    opacity: .3;
+}
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:after {
+    font-size: 20px;
+    content: "↓";
+    left: auto;
+    position: absolute;
+
+    display: inline;
+    opacity: .3; 
+} */
+.sorting_disabled{
+    padding-left: 10px!important;
+    padding-right: 10px!important; 
+}
+.form-select{
+    margin-left: 0px!important;
+}
+.sort::before{
+    content: " "!important;
+}
+.sort::after{
+    content: " "!important;
+}
+.paginate_button {    
+    padding: 0px!important;
+    margin: 0px!important;
+}
+.active .page-link{
+    background-color: #FAB40E!important;
+    border: 0px solid #FAB40E!important;
+    margin: 0px!important;
+}
+.active .page-link:hover{
+    border: 0px !important;
+    background-color:#FAB40E!important ;
+    margin: 0px!important;
+}
+.sa{
+    margin-left: 7px;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
